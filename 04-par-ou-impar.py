@@ -3,7 +3,7 @@ print('Quer saber se algum número é PAR ou IMPAR? ')
 n=int(input('Me diga um número qualquer '))
 r=n % 2
 if r==0:
-    print('Esse é um número PAR')
+    print(f'O número {n} é PAR')
 else:
-    print('Esse é um numero IMPAR')
+    print(f'O numero {n} é IMPAR')
 print('tudo certo!')
