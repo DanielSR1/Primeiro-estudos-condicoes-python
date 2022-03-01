@@ -1,1 +1,0 @@
-print('\033[0:30:45m ola seu gay')
