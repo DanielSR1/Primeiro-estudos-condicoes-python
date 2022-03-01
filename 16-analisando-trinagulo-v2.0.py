@@ -1,4 +1,4 @@
-#NESSE EXERCICIOS CRIAMOS UM ALGORITOMO QUE INDICA SE 3 MEDIDAS RETAS JUNTAS PODEM OU NÃO FORMAR UM TRIANGULo
+#NESSE EXERCICIOS CRIAMOS UM ALGORITOMO QUE INDICA SE 3 MEDIDAS RETAS JUNTAS PODEM OU NÃO FORMAR UM TRIANGULO EQUILATERO, ESCALENO OU ISOCELES.
 print('Quer saber se 3 medidas retas podem formar um triangulo? Digite as medidas a baixo:')
 r1=float(input('Qual o valor da primeira reta? '))
 r2=float(input('Qual o valor da segunda reta? '))
