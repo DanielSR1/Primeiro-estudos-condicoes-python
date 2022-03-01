@@ -1,3 +1,4 @@
+#NESSE EXERCICIO FOI DESENVOLVI UM PROGRAMA CAPAZ DE CALCULAR O IMC DE UMA PESSOA.
 from sys import float_repr_style
 print('\033[4mVamos calcular seu IMC (ÍNDICE DE MASSA CORPORAL).')
 print('Por favor responda:\033[m')
