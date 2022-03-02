@@ -2,14 +2,11 @@
 print('\033[4mVamos calcular o valor do produto de acordo com a forma de pagamento.\033[m')
 preço=float(input('Qual o valor do produto? R$: '))
 print('Escolha uma forma de pagamento')
-print('Digite {1} para pagamento à vista (Dinheiro/cheque) com 10% de desconto.')
+print('\033[32mDigite {1} para pagamento à vista (Dinheiro/cheque) com 10% de desconto.')
 print('Digite {2} para pagamento à vista no cartão com 5% de desconto.')
 print('Digite {3} para pagamento em até 2x no cartão(sem juros).')
-print('Digite {4} para pagamento no cartão em 3x ou mais (com 20% de juros)')
+print('Digite {4} para pagamento no cartão em 3x ou mais (com 20% de juros)\033[m')
 escolha=(int(input('Qual a forma de pagamento?: ')))
-if escolha != 1 or 2 or 3 or 4:
-    print('\033[31mPor favor escolha um valor entre 1,2,3 ou 4.\033[m')
-    escolha=(int(input('Qual a forma de pagamento?: ')))
 um=preço-(preço*10/100)
 tres=preço
 dois=preço-(preço*5/100)
@@ -37,6 +34,8 @@ elif escolha==4:
         print(f'\033[32mO valor a ser pago à vista no cartão é de R$ {dois}.')
     elif p>10:
         print('\033[31mPor favor, escolha uma parcela entre 1x e 10x.')
+else:
+    print('\033[31mPor favor escolha um valor entre 1,2,3 ou 4.\033[m')
 
 
 
